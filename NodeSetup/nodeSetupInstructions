@@ -1,0 +1,195 @@
+sudo su -
+wolfe1234
+cat <<EOF >> /etc/gai.conf
+precedence ::ffff:0:0/96 100
+EOF
+exit
+
+sudo apt-get update
+pause 
+
+sudo apt -y install pwgen
+pause
+
+sudo fallocate -l 4G /swapfile
+pause
+
+sudo chmod 600 /swapfile
+
+sudo mkswap /swapfile
+
+sudo swapon /swapfile
+
+sudo su -
+cat <<EOF >> /etc/fstab
+/swapfile none swap sw 0 0
+EOF
+exit
+
+sudo su -
+cat <<EOF >> /etc/fstab
+/swapfile none swap sw 0 0"
+EOF
+exit
+
+sudo su -
+cat <<EOF >> /etc/sysctl.conf
+vm.swappiness=10
+EOF
+exit
+
+
+sudo apt-get install -y apt-transport-https lsb-release
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+
+echo 'deb https://zencashofficial.github.io/repo/ '$(lsb_release -cs)' main' | sudo tee --append /etc/apt/sources.list.d/zen.list
+
+gpg --keyserver ha.pool.sks-keyservers.net --recv 219F55740BBF7A1CE368BA45FB7053CE4991B669
+
+gpg --export 219F55740BBF7A1CE368BA45FB7053CE4991B669 | sudo apt-key add -
+
+sudo apt-get update
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+pause
+sudo apt-get install -y zen
+pause
+pause
+pause
+zen-fetch-params
+
+zend
+
+
+USERNAME=$(pwgen -s 16 1)
+PASSWORD=$(pwgen -s 64 1)
+cat <<EOF > ~/.zen/zen.conf
+rpcuser=$USERNAME
+rpcpassword=$PASSWORD
+rpcport=18231
+rpcallowip=127.0.0.1
+server=1
+daemon=1
+listen=1
+txindex=1
+logtimestamps=1
+### testnet config
+#testnet=1
+EOF
+pause
+zend
+
+sudo apt install socat
+pause
+pause
+pause
+pause
+
+cd
+
+sudo apt-get install -y git
+
+git clone https://github.com/Neilpang/acme.sh.git
+
+*************************************************************************************scrit 2
+
+cd acme.sh
+
+./acme.sh --install
+
+sudo ~/.acme.sh/acme.sh --issue --standalone -d $USER.vwminer.com
+	-make sure to replace the domain name
+
+sudo crontab -e
+	-choose 2
+
+add the following making sure to replace # with miner#
+6 0 * * * "/home/miner#/.acme.sh"/acme.sh --cron --home "/home/miner#/.acme.sh" > /dev/null
+
+sudo cp /home/$USER/.acme.sh/$USER.vwminer.com/ca.cer /usr/share/ca-certificates/ca.crt
+	
+
+sudo dpkg-reconfigure ca-certificates
+	-window appears, must select ok and certificate
+
+
+paste the following replaceing #:
+FQDN=miner#.vwminer.com
+zen-cli stop
+cat <<EOF >> ~/.zen/zen.conf
+tlscertpath=/home/$USER/.acme.sh/$FQDN/$FQDN.cer 
+tlskeypath=/home/$USER/.acme.sh/$FQDN/$FQDN.key
+EOF
+zend
+	-may need to ctrlC then rund zend again
+
+zen-cli getnetworkinfo
+	-look for tls ... =true
+
+
+
+-----wait for sync
+
+zen-cli z_getnewaddress  
+
+-----wallet stuff(42 in transparent, 4 transactions of .25 into shielded (z))
+
+sudo apt -y install npm
+
+sudo npm install -g n
+
+sudo n latest
+
+mkdir ~/zencash
+
+cd ~/zencash
+
+git clone https://github.com/ZencashOfficial/secnodetracker.git
+
+cd secnodetracker
+
+npm install
+
+node setup.js
+	-t_adress
+	-willwolfe1@gmail.com
+	-miner#.vwminer.com
+	-4
+	-na
+
+
+touch ~/runnode.sh
+cat <<EOF >> ~/runnode.sh
+#!/bin/bash
+zend
+cd /home/$USER/zencash/secnodetracker
+node app.js
+EOF
+
+chmod +x ~/runnode.sh
+
+sudo apt-get install -y tmux
+
+/usr/bin/tmux new-session -s node -d  sh /home/$USER/runnode.sh
+

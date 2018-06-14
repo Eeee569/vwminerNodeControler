@@ -1,0 +1,7 @@
+run createUser.sh on first loging
+
+logout and login as new user
+
+run SetupPart1.sh
+
+

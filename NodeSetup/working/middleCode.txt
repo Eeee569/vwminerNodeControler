@@ -1,0 +1,3 @@
+- wait for zen to syncronize with blocks and domin to propagate
+	-possibly keep running zen-status and compare with local zen-status while also pinging domain till correct ip
+-run zen-cli z_getnewaddress then do the transfer of .25 4 times every 30 min  
