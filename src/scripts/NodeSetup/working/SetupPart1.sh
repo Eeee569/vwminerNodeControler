@@ -2,9 +2,9 @@
 
 sudo ls #get root first thing
 
-sudo bash -c 'cat <<EOF >> /etc/gai.conf
-precedence ::ffff:0:0/96 100
-EOF'
+#sudo bash -c 'cat <<EOF >> /etc/gai.conf
+#precedence ::ffff:0:0/96 100
+#EOF'
 
 sudo apt-get update
  
@@ -12,7 +12,7 @@ sudo apt-get update
 sudo apt -y install pwgen
 
 
-sudo fallocate -l 4G /swapfile
+sudo fallocate -l 2G /swapfile
 
 
 sudo chmod 600 /swapfile
@@ -52,7 +52,7 @@ zen-fetch-params
 zend
 
 
-sudo bash -c 'USERNAME=$(pwgen -s 16 1);PASSWORD=$(pwgen -s 64 1);cat <<EOF > ~/.zen/zen.conf
+bash -c 'USERNAME=$(pwgen -s 16 1);PASSWORD=$(pwgen -s 64 1);cat <<EOF > ~/.zen/zen.conf
 rpcuser=$USERNAME
 rpcpassword=$PASSWORD
 rpcport=18231
@@ -81,18 +81,25 @@ cd acme.sh
 
 ./acme.sh --install
 
-sudo ~/.acme.sh/acme.sh --issue --standalone -d $USER.vwminer.com
+sudo ~/.acme.sh/acme.sh --issue --standalone --listen-v6 -d $USER.vwminer.com
 
-#scipping crontab
+echo "6 0 * * * /home/$USER/.acme.sh/acme.sh --cron --home "\""/home/$USER/.acme.sh"\"" --pre-hook "zen-cli stop" > /dev/null" >> mycron
 
-sudo cp /home/$USER/.acme.sh/$USER.vwminer.com/ca.cer /usr/share/ca-certificates/ca.crt
+crontab mycron
+
+rm mycron
+
+#testthis may need to run  sudo dpkg-reconfigure ca-certificates
+# and do sudo cp /home/$USER/.acme.sh/$USER.vwminer.com/ca.cer /usr/local/ca-certificates/ca.crt   # get rid of share
+
+sudo cp /home/$USER/.acme.sh/$USER.vwminer.com/ca.cer /usr/local/share/ca-certificates/ca.crt
 
 sudo update-ca-certificates
 
 
 zen-cli stop
 
-sudo bash -c 'FQDN=$USER.vwminer.com;cat <<EOF >> ~/.zen/zen.conf
+bash -c 'FQDN=$USER.vwminer.com;cat <<EOF >> ~/.zen/zen.conf
 tlscertpath=/home/$USER/.acme.sh/$FQDN/$FQDN.cer 
 tlskeypath=/home/$USER/.acme.sh/$FQDN/$FQDN.key
 EOF'

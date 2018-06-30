@@ -125,7 +125,7 @@ sudo crontab -e
 	-choose 2
 
 add the following making sure to replace # with miner#
-6 0 * * * "/home/miner#/.acme.sh"/acme.sh --cron --home "/home/miner#/.acme.sh" > /dev/null
+6 0 * * * /home/<USER>/.acme.sh/acme.sh --cron --home "/home/<USER>/.acme.sh" --pre-hook "zen-cli stop" > /dev/null
 
 sudo cp /home/$USER/.acme.sh/$USER.vwminer.com/ca.cer /usr/share/ca-certificates/ca.crt
 	
@@ -148,7 +148,7 @@ zen-cli getnetworkinfo
 	-look for tls ... =true
 
 
-
+zen-cli z_sendmany zne5mSvCfafrAxfegTvExMjNLhNyFCszc7H '[{"address": "zcPTziTUYn2f9ComrWLLSY1ZDFyMfKJQ3HBNx1diRUxZAeXzpaejwekxnx8ugF8G4eSYHpAcygPZYNfWd6ihcWE1gL8uUbp" , "amount":.25}]'
 -----wait for sync
 
 zen-cli z_getnewaddress  
