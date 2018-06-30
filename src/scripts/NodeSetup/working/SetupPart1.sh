@@ -2,17 +2,15 @@
 
 sudo ls #get root first thing
 
-#sudo bash -c 'cat <<EOF >> /etc/gai.conf
-#precedence ::ffff:0:0/96 100
-#EOF'
 
 sudo apt-get update
  
+sudo apt upgrade -y 
 
 sudo apt -y install pwgen
 
 
-sudo fallocate -l 2G /swapfile
+sudo fallocate -l 4G /swapfile
 
 
 sudo chmod 600 /swapfile
