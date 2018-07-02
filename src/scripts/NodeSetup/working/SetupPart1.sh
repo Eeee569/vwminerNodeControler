@@ -83,7 +83,7 @@ sudo ~/.acme.sh/acme.sh --issue --standalone --listen-v6 -d $USER.vwminer.com
 
 echo "6 0 * * * /home/$USER/.acme.sh/acme.sh --cron --home "\""/home/$USER/.acme.sh"\"" --pre-hook "zen-cli stop" > /dev/null" >> mycron
 
-crontab mycron
+sudo crontab mycron
 
 rm mycron
 
