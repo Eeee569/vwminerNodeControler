@@ -7,7 +7,7 @@ class Wallet:
 
     tAddresses = []
 
-    tChangeAddr = "zne5mSvCfafrAxfegTvExMjNLhNyFCszc7H"
+    tChangeAddr = "znWYLEcs6qgP8bp7C1UpowZS12ZECDUsT5p"
 
     zAddresses = []
 
@@ -43,20 +43,25 @@ class Wallet:
 
         self.__waitForBlockChange()
 
+
+        print("Block updated \n")
         newChangeBal = self.getBalanceT(self.tChangeAddr)
 
         if newChangeBal > startChangeBal:
             self.__waitForBlockChange()
             toreturn = newChangeBal-startChangeBal
             call("zen-cli "+"z_sendmany "+ self.tChangeAddr+" "+"'[{\"address\": \""+fromaddr+"\" , \"amount\":"+str(toreturn)+"}]'", shell=True)
-            #check_output(["zen-cli", "z_sendmany", self.tChangeAddr, "'[{\"address\": \"" + fromaddr +"\" , \"amount\": "+str(toreturn) +"}]'"])
+            check_output(["zen-cli", "z_sendmany", self.tChangeAddr, "'[{\"address\": \"" + fromaddr +"\" , \"amount\": "+str(toreturn) +"}]'"])
 
     def __waitForBlockChange(self):
         infoOutput = check_output(["zen-cli", "getinfo"]).decode("utf-8")
         currentBlockHeight = int(infoOutput[infoOutput.index("blocks")+8: infoOutput.index(",\n  \"timeoffset\"")])
+
+        print(currentBlockHeight)
+
         if self.lastHeight < currentBlockHeight:
             self.lastHeight = currentBlockHeight
-            return
+            #return
         blockheightStart = currentBlockHeight
         while self.lastHeight == currentBlockHeight:
             infoOutput = check_output(["zen-cli", "getinfo"]).decode("utf-8")
@@ -65,4 +70,6 @@ class Wallet:
             sleep(0.5)
 
         self.lastHeight = currentBlockHeight
+        print(currentBlockHeight)
+        sleep(0.5)
 

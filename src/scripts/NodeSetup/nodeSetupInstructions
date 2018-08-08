@@ -187,6 +187,9 @@ cd /home/$USER/zencash/secnodetracker
 node app.js
 EOF
 
+
+ zen-cli z_sendmany zcVrb39qmhudj1yLHLxq4aCmRpDbjcRZWeQ7oWfHhwdSzGfW79RuvtREj3hjJkm1Uxo45xJPEbhRe9oWhWX7Moi622RKKXQ '[{"address": "zcTUSPgm8NSPL5pDyzuA8XS8X7kwZZtSkwDBzdg8B79tZNNzqiJD36VgWbXwFsHfMU6fKb9SWMisiJBJWz4JsPyjWRoFfBC" , "amount":0.25}]'
+
 chmod +x ~/runnode.sh
 
 sudo apt-get install -y tmux

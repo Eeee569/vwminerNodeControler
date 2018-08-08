@@ -2,7 +2,7 @@
 
 sudo ls #get root first thing
 
-sudo resize2fs /dev/sda2 #expand to full storage, for vms
+#sudo resize2fs /dev/sda2 #expand to full storage **must run cfdisk first, for vms
 
 sudo apt-get update
  
