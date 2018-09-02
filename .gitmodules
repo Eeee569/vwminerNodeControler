@@ -1,0 +1,3 @@
+[submodule "src/lib/zencashjs"]
+	path = src/lib/zencashjs
+	url = https://github.com/ZencashOfficial/zencashjs.git

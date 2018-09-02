@@ -1,7 +1,8 @@
 from subprocess import check_output,call
 import ast
 from time import sleep
-
+import requests
+import json
 
 class Wallet:
 
@@ -53,7 +54,27 @@ class Wallet:
             call("zen-cli "+"z_sendmany "+ self.tChangeAddr+" "+"'[{\"address\": \""+fromaddr+"\" , \"amount\":"+str(toreturn)+"}]'", shell=True)
             check_output(["zen-cli", "z_sendmany", self.tChangeAddr, "'[{\"address\": \"" + fromaddr +"\" , \"amount\": "+str(toreturn) +"}]'"])
 
+    def __waitforCompletion(self, opid,toaddr):
+
+        txid = ""
+
+        while True:
+            opidoutput = check_output(["zen-cli", "z_getoperationresult \"[\""+opid+"\"]\" "]).decode("utf-8")
+            if "success" in opidoutput:
+                txid=self.__getString(opidoutput,"txid").replace("\"","")
+                break
+
+
+        txdata = requests.get(("https://explorer.zensystem.io/api/tx/"+txid))
+
+        txObject = json.loads(txdata.content)
+
+        txObject.vout[0].
+
+
+
     def __waitForBlockChange(self):
+
         infoOutput = check_output(["zen-cli", "getinfo"]).decode("utf-8")
         currentBlockHeight = int(infoOutput[infoOutput.index("blocks")+8: infoOutput.index(",\n  \"timeoffset\"")])
 
@@ -73,3 +94,7 @@ class Wallet:
         print(currentBlockHeight)
         sleep(0.5)
 
+
+
+    def __getString(self,src,key):
+        return src[src.index(key) + (len(key)+2): src.index(",")]
