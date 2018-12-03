@@ -1,0 +1,28 @@
+-node
+	-node id
+	-node name
+	-username
+	-password
+	-ip
+	-url
+
+-server
+	-id
+	-total storage
+	-datastore list
+		-data store
+			-storage name
+			-storage space
+	-ram ammount
+	-ram used
+	-network interface list
+		-interface name
+		-number of vms
+
+-general
+	-last node id
+	-server list
+
+
+***must set ubuntu to not ask for password for sudo
+
