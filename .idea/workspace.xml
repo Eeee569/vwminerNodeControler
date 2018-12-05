@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faefc1c9-8195-4dc3-a293-2162b7cb6de6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nodeControl/ControlMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vshphereWrapper/settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-ssh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-ssh/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/keyParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/keyParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/sftp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/sftp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/ssh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/ssh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-durability-ssh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-durability-ssh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-kexdh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-kexdh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-keyparser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-keyparser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-packet60.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-packet60.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-sftp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-sftp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/Channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/Channel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/SFTPWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/SFTPWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/agent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/agent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/test/test-client-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/test/test-client-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/test/test-openssh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/test/test-openssh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spawnNode.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodeControl/Node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nodeControl/ControlMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodeControl/ControlMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet/Wallet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testreadfromfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testssh.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,34 +49,38 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="64" />
-          <entry key="js" value="1354" />
+          <entry key="js" value="1785" />
           <entry key="py" value="467" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1354" />
+          <entry key="JavaScript" value="1785" />
           <entry key="Python" value="531" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="8" />
+          <entry key="js" value="12" />
+          <entry key="nodeSetupInstructions" value="1" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="12" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -52,73 +88,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testssh.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wallet/Wallet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="45" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/address.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="1410">
               <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nodeControl/ControlMain.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="997">
-              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            <state relative-caret-position="435">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nodeControl/ControlMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nodeControl/Node.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/nodeSetupInstructions">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/SetupPart2.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/struct.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/zaddress.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testreadfromfile.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spawnNode.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="390">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -150,6 +192,9 @@
         <option value="$PROJECT_DIR$/src/wallet/testing.js" />
         <option value="$PROJECT_DIR$/src/wallet/wallet.js" />
         <option value="$PROJECT_DIR$/src/nodeControl/ControlMain.js" />
+        <option value="$PROJECT_DIR$/src/nodeControl/Node.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/settings.js" />
       </list>
     </option>
   </component>
@@ -164,19 +209,53 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/asn1/package.json" />
       <path value="$PROJECT_DIR$/node_modules/axios/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/concat-map/package.json" />
       <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/interpret/package.json" />
       <path value="$PROJECT_DIR$/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/minimatch/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/node-ssh/node_modules/ssh2-streams/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/node-ssh/node_modules/ssh2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/node-ssh/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/p-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-parse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rechoir/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sb-promisify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sb-scandir/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/shell-escape/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ssh2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/streamsearch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/wrappy/package.json" />
       <path value="$PROJECT_DIR$/src/lib/zencashjs/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1915" />
-    <option name="y" value="34" />
-    <option name="width" value="3005" />
-    <option name="height" value="2126" />
+    <option name="y" value="25" />
+    <option name="width" value="2560" />
+    <option name="height" value="1575" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,18 +273,25 @@
             <path>
               <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
               <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="axios" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
               <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nodeControl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vshphereWrapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,6 +309,9 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/vshphereWrapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/scripts" />
@@ -358,7 +447,9 @@
       <workItem from="1536186215629" duration="4959000" />
       <workItem from="1536334592507" duration="1798000" />
       <workItem from="1543347765899" duration="34000" />
-      <workItem from="1543772072826" duration="4717000" />
+      <workItem from="1543772072826" duration="6081000" />
+      <workItem from="1543947030008" duration="6756000" />
+      <workItem from="1543974850751" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up dir">
       <created>1529018103621</created>
@@ -379,7 +470,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18885000" />
+    <option name="totallyTimeSpent" value="28080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,20 +485,20 @@
     <frame x="1147" y="25" width="3773" height="2135" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08826666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08826666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786666" weight="0.4478803" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893335" weight="0.39950123" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49653333" visible="true" weight="0.4478803" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984" weight="0.39950123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4976" visible="true" weight="0.44089776" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024" side_tool="true" visible="true" weight="0.44089776" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4968" weight="0.44089776" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50346667" side_tool="true" visible="true" weight="0.4478803" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.15634365" />
       <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.812718" visible="true" weight="0.40997505" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -455,27 +546,10 @@
     <entry file="file://$PROJECT_DIR$/testC.c" />
     <entry file="file://$PROJECT_DIR$/OldInternalKeys" />
     <entry file="file://$PROJECT_DIR$/manager.c" />
-    <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testssh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/Wallet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="45" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testssh.py" />
+    <entry file="file://$PROJECT_DIR$/src/wallet/Wallet.py" />
+    <entry file="file://$PROJECT_DIR$/spawnNode.sh" />
+    <entry file="file://$PROJECT_DIR$/testreadfromfile.txt" />
     <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/address.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -483,38 +557,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/zaddress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testreadfromfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spawnNode.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="1410">
           <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/nodeSetupInstructions">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/SetupPart2.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/struct.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/zaddress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nodeControl/ControlMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nodeControl/Node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
