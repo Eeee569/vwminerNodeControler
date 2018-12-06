@@ -2,40 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faefc1c9-8195-4dc3-a293-2162b7cb6de6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vshphereWrapper/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/hostControl/Host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/hostControl/HostTesting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vmStructure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/common/utility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/host/add/add_host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/host/connect/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/host/connect/connect_host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/host/disconnect/disconnect_host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/host/remove/remove_host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/authentication.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/datacenters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/datastores.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/folders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/hosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/networks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/resource_pools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/vms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/create/create_vm_with_defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/create/create_vm_with_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/details/vm_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_off.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_on.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-ssh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-ssh/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/keyParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/keyParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/sftp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/sftp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/ssh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/ssh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-durability-ssh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-durability-ssh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-kexdh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-kexdh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-keyparser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-keyparser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-packet60.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-packet60.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-sftp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-sftp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/test/test-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/Channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/Channel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/SFTPWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/SFTPWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/agent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/agent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/lib/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/lib/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/test/test-client-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/test/test-client-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/test/test-openssh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/test/test-openssh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spawnNode.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodeControl/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nodeControl/ControlMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodeControl/ControlMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet/Wallet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testreadfromfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testssh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nodeControl/ControlMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vmwarewrapper/nodeControl/NodeTesting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nodeControl/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vmwarewrapper/nodeControl/Node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vshphereWrapper/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/common/settings.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,28 +46,31 @@
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="6" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="64" />
-          <entry key="js" value="1785" />
+          <entry key="js" value="2300" />
+          <entry key="json" value="1" />
           <entry key="py" value="467" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1785" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2300" />
           <entry key="Python" value="531" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="12" />
+          <entry key="js" value="39" />
+          <entry key="json" value="2" />
           <entry key="nodeSetupInstructions" value="1" />
           <entry key="sh" value="1" />
           <entry key="txt" value="1" />
@@ -79,7 +78,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="12" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="39" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -90,8 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
+            <state relative-caret-position="542">
               <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/nodeControl/NodeTesting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -106,61 +115,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nodeControl/ControlMain.js">
+        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/common/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/settings.js">
+        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/nodeControl/Node.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nodeControl/Node.js">
+        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/hostControl/Host.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="340">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/nodeSetupInstructions">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/SetupPart2.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/struct.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/zaddress.js">
+        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="280">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vmStructure.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/hostControl/HostTesting.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -193,8 +204,24 @@
         <option value="$PROJECT_DIR$/src/wallet/wallet.js" />
         <option value="$PROJECT_DIR$/src/nodeControl/ControlMain.js" />
         <option value="$PROJECT_DIR$/src/nodeControl/Node.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" />
         <option value="$PROJECT_DIR$/src/vshphereWrapper/settings.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/vms.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/vm/power/vm_power_off.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/resources/authentication.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/resources/vms.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/resources/networks.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/common/settings.js" />
+        <option value="$PROJECT_DIR$/src/vshphereWrapper/package.json" />
+        <option value="$PROJECT_DIR$/settings.js" />
+        <option value="$PROJECT_DIR$/src/esxiWrapper/Host.js" />
+        <option value="$PROJECT_DIR$/src/esxiWrapper/esxi.js" />
+        <option value="$PROJECT_DIR$/src/vmwareWrapper.js" />
+        <option value="$PROJECT_DIR$/src/vmwarewrapper/vmStructure.js" />
+        <option value="$PROJECT_DIR$/src/vmwarewrapper/hostControl/HostTesting.js" />
+        <option value="$PROJECT_DIR$/src/vmwarewrapper/hostControl/Host.js" />
+        <option value="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js" />
+        <option value="$PROJECT_DIR$/src/vmwarewrapper/nodeControl/Node.js" />
       </list>
     </option>
   </component>
@@ -250,6 +277,7 @@
       <path value="$PROJECT_DIR$/node_modules/streamsearch/package.json" />
       <path value="$PROJECT_DIR$/node_modules/wrappy/package.json" />
       <path value="$PROJECT_DIR$/src/lib/zencashjs/package.json" />
+      <path value="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -263,6 +291,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,42 +308,58 @@
               <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
               <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vmwarewrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vmwarewrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="esxiWrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vmwarewrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="hostControl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vmwarewrapper" type="462c0819:PsiDirectoryNode" />
               <item name="nodeControl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
               <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vshphereWrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/vshphereWrapper/vm/power/vm_power_off.js" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/src/lib/zencashjs/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="$USER_HOME$/.npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/vshphereWrapper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/vmwarewrapper" />
+      <recent name="$PROJECT_DIR$/src/hostControl" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/vshphereWrapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ControlMain.js">
+  <component name="RunManager" selected="Node.js.powerofVM">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="vwminerNodeControler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,7 +397,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ControlMain.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ControlMain.js" working-dir="$PROJECT_DIR$/src/nodeControl">
+    <configuration name="powerofVM" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_off.js" working-dir="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power">
       <method v="2" />
     </configuration>
     <configuration name="testing.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="testing.js" working-dir="$PROJECT_DIR$/src/wallet">
@@ -419,12 +464,12 @@
     <list>
       <item itemvalue="Node.js.vwminer" />
       <item itemvalue="Mocha.src/lib/zencashjs/test/address.js" />
-      <item itemvalue="Node.js.ControlMain.js" />
+      <item itemvalue="Node.js.powerofVM" />
       <item itemvalue="Node.js.testing.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.ControlMain.js" />
+        <item itemvalue="Node.js.powerofVM" />
         <item itemvalue="Node.js.testing.js" />
         <item itemvalue="Mocha.src/lib/zencashjs/test/address.js" />
       </list>
@@ -450,6 +495,7 @@
       <workItem from="1543772072826" duration="6081000" />
       <workItem from="1543947030008" duration="6756000" />
       <workItem from="1543974850751" duration="1075000" />
+      <workItem from="1544033299697" duration="7182000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up dir">
       <created>1529018103621</created>
@@ -470,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28080000" />
+    <option name="totallyTimeSpent" value="35262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,16 +535,16 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49653333" visible="true" weight="0.4478803" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984" weight="0.39950123" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973333" visible="true" weight="0.32967582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546668" weight="0.4478803" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4976" weight="0.39950123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4968" weight="0.44089776" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50346667" side_tool="true" visible="true" weight="0.4478803" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49653333" weight="0.44089776" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002667" side_tool="true" visible="true" weight="0.32967582" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.15634365" />
       <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.812718" visible="true" weight="0.40997505" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -536,6 +582,12 @@
           <line>61</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_off.js</url>
+          <line>27</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -557,20 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/nodeSetupInstructions">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -587,31 +625,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nodeControl/ControlMain.js">
+    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/authentication.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/vms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/common/utility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/networks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_off.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/resource_pools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/datacenters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/vms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/details/vm_details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_on.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/common/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/nodeControl/NodeTesting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nodeControl/Node.js">
+    <entry file="file://$PROJECT_DIR$/src/vmwareWrapper.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="108">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js">
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vmStructure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/settings.js">
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/hostControl/HostTesting.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/hostControl/Host.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/nodeControl/Node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
