@@ -1,6 +1,6 @@
 
 
-const axios = require("../../node_modules/axios");
+const axios = require("axios");
 let axiosApi;
 
 
@@ -12,7 +12,7 @@ AUTHORIZATION = "aWY3N0lqTTAyaXJIOUkxTDpNa0VZaTJqM0hPSDQzZ2hZTkZwMnN4MGg1ejRCckY
 
 
 axiosApi = axios.create({
-    baseURL: "http://"+NODE_URL+":"+NODE_PORT,
+    baseURL: NODE_URL+":"+NODE_PORT,
     timeout: 30000,
     headers: {'Authorization': 'Basic '+AUTHORIZATION}
 
