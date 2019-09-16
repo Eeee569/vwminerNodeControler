@@ -1,11 +1,11 @@
 module.exports = {
 
-    vmimages: ['',''],
-    vmStorageLocation:[],
-    hosts:['192.168.1.48','localhost'],
-    hostusername:['root','will'],
-    hostpassword:['VWvirtual1289','wolfe1234'],
 
+
+    hosts:['192.168.1.58','localhost'],
+    hostusername:['master','will'],
+    hostpassword:['wolfe1234','wolfe1234'],
+    database:['VWminer']
 
 
 }

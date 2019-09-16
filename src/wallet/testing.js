@@ -1,8 +1,12 @@
+
+
 const axios = require("../../node_modules/axios");
 let axiosApi;
 axiosApi = axios.create({
-    baseURL: "https://explorer.zensystem.io/api",
+    baseURL: "http://127.0.0.1:18231",
     timeout: 30000,
+    headers: {'Authorization': 'Basic aWY3N0lqTTAyaXJIOUkxTDpNa0VZaTJqM0hPSDQzZ2hZTkZwMnN4MGg1ejRCckY1MUZXVVgxN1JlTnhNVUVUdHVJYUlaRWl1Yk94UE8xWUN2'}
+
 });
 
 function apiGet(url) {
@@ -16,15 +20,22 @@ function apiPost(url, form) {
 }
 
 
-async function asynccall() {
+async function asynccall(data_to_send) {
 
     const infoURL = "/status?q=getInfo";
     //const infoData =  await apiGet(infoURL);
-     const infoData = await axios.get('https://explorer.zensystem.io/api/status?q=getInfo');
+     const infoData = await axiosApi.post('',data_to_send)
+         .then(function (response){
+             console.log(JSON.stringify(response.data));
+             return response.data;
+     });
 
 
-    console.log(infoData.data.info)
 
 }
 
-asynccall();
+asynccall({
+    method: "getinfo",
+    params: [],
+    id: 1
+});

@@ -2,5 +2,5 @@
 
 
 var tem = require('./esxi');
-tem.getHostStorageList(0);
+tem.updateHosts(0,"saf");
 
