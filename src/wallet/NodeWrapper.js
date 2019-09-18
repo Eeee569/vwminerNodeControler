@@ -1,5 +1,5 @@
 
-
+//TODO: error handling
 const axios = require("axios");
 let axiosApi;
 
@@ -20,16 +20,39 @@ axiosApi = axios.create({
 
 
 
-async function async_post(data_to_send) {
+ async function async_post(method_in, params_in) {
 
-    const infoURL = "/status?q=getInfo";
     //const infoData =  await apiGet(infoURL);
-    const infoData = await axiosApi.post('',data_to_send)
+    /*const infoData =  await axiosApi.post('',data_to_send)
         .then(function (response){
-            console.log(JSON.stringify(response.data));
+
+            setTimeout(() => {
+                console.log("wait over");
+            }, 3000);
+
             return response.data;
         });
 
+    console.log("got in sync post: "+JSON.stringify(infoData));
+    return infoData;*/
+
+    var built_msg = {
+        method:method_in,
+        params:params_in,
+        id: 1
+    };
+    
+    
+    return new Promise(function(resolve, reject) {
+        axiosApi.post('',built_msg)
+            .then(function (response){
+
+                if(response.data.hasOwnProperty('error')){
+                    //we got an error, handle later
+                }
+                return resolve(response.data.result);
+            });
+    });
 
 }
 
@@ -37,8 +60,8 @@ async function async_post(data_to_send) {
 
 module.exports = {
 
-    async_post: function (data_to_send){
-        async_post(data_to_send);
+    async_post:   async function (method, params){
+        return  await async_post(method,params);
     }
 
 

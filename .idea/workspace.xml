@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faefc1c9-8195-4dc3-a293-2162b7cb6de6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/async/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/xhr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/xhr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/btoa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/https/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/https/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-buffer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-buffer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-buffer/test/basic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-ssh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-ssh/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rootpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rootpath/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/shelljs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shelljs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ssh2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssh2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unirest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unirest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bs58check/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bs58check/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/zencashjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wallet/testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/testing.js" afterDir="false" />
     </list>
@@ -47,16 +21,17 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="10" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.5" value="11" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="64" />
-          <entry key="js" value="5136" />
+          <entry key="js" value="6978" />
           <entry key="json" value="1" />
           <entry key="py" value="467" />
         </counts>
@@ -64,7 +39,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="5136" />
+          <entry key="JavaScript" value="6978" />
           <entry key="Python" value="531" />
         </counts>
       </usages-collector>
@@ -72,7 +47,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="44" />
-          <entry key="json" value="2" />
+          <entry key="json" value="3" />
           <entry key="md" value="1" />
           <entry key="nodeSetupInstructions" value="1" />
           <entry key="sh" value="1" />
@@ -81,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="2" />
+          <entry key="JSON" value="3" />
           <entry key="JavaScript" value="44" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -91,22 +66,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="274" selection-start-line="274" selection-end-line="285" selection-end-column="2" />
+            <state relative-caret-position="428">
+              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
+        <entry file="file://$PROJECT_DIR$/src/wallet/NodeWrapper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,30 +94,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/wallet/NodeWrapper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="23" selection-start-column="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -221,8 +182,8 @@
         <option value="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxiTesting.js" />
         <option value="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/src/wallet/testing.js" />
         <option value="$PROJECT_DIR$/src/wallet/NodeWrapper.js" />
+        <option value="$PROJECT_DIR$/src/wallet/testing.js" />
       </list>
     </option>
   </component>
@@ -234,142 +195,10 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/src/lib/zencashjs/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/asn1/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/aws-sign2/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/aws4/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/axios/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt-pbkdf/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bignumber.js/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bl/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/boom/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/caseless/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/combined-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cryptiles/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/dashdash/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/dashdash/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/delayed-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ecc-jsbn/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extsprintf/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/forever-agent/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/form-data/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/form-data/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/generate-function/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/generate-object-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/getpass/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/getpass/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/har-validator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-ansi/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/hawk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/hoek/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/http-signature/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/http/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/https/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/interpret/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-my-ip-valid/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-my-json-valid/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-typedarray/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isstream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsbn/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/json-schema/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/json-stringify-safe/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsonpointer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsprim/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mysql/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/node-ssh/node_modules/ssh2-streams/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/node-ssh/node_modules/ssh2/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/node-ssh/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/node-uuid/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/oauth-sign/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/p-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pinkie-promise/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pinkie/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/punycode/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/rechoir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/request/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/request/node_modules/combined-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/request/node_modules/delayed-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/request/node_modules/form-data/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/request/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/request/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/request/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/rootpath/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/sb-promisify/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/sb-scandir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/shell-escape/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/shelljs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/sntp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/sqlstring/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ssh2/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/sshpk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/streamsearch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/stringstream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/tough-cookie/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/tunnel-agent/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/tweetnacl/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unirest/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/verror/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/verror/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/xtend/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
-      <path value="$PROJECT_DIR$/src/lib/zencashjs/package.json" />
       <path value="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/package.json" />
     </packageJsonPaths>
   </component>
@@ -386,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,7 +402,11 @@
       <workItem from="1545415435147" duration="1300000" />
       <workItem from="1567906590135" duration="599000" />
       <workItem from="1568397511243" duration="4360000" />
-      <workItem from="1568653950957" duration="2034000" />
+      <workItem from="1568653950957" duration="11335000" />
+      <workItem from="1568669697157" duration="7184000" />
+      <workItem from="1568737880640" duration="2257000" />
+      <workItem from="1568750659332" duration="2608000" />
+      <workItem from="1568823537159" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up dir">
       <created>1529018103621</created>
@@ -594,7 +427,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78360000" />
+    <option name="totallyTimeSpent" value="102903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,20 +442,20 @@
     <frame x="2227" y="1026" width="3773" height="1575" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49749374" visible="true" weight="0.1176" />
-      <window_info id="Structure" order="1" sideWeight="0.50250626" side_tool="true" visible="true" weight="0.1176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4924812" visible="true" weight="0.1176" />
+      <window_info id="Structure" order="1" sideWeight="0.50751877" side_tool="true" visible="true" weight="0.1176" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973333" weight="0.32967582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4888" visible="true" weight="0.44775087" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49253333" weight="0.39930797" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48506665" visible="true" weight="0.44775087" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48986667" weight="0.39930797" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49413332" weight="0.22076124" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5112" side_tool="true" visible="true" weight="0.44775087" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4936" weight="0.22076124" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51493335" side_tool="true" visible="true" weight="0.44775087" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.15634365" />
       <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.812718" visible="true" weight="0.40997505" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -660,6 +493,12 @@
           <line>27</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/wallet/testing.js</url>
+          <line>80</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -674,13 +513,7 @@
     <entry file="file://$PROJECT_DIR$/src/wallet/Wallet.py" />
     <entry file="file://$PROJECT_DIR$/spawnNode.sh" />
     <entry file="file://$PROJECT_DIR$/testreadfromfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/address.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/address.js" />
     <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/nodeSetupInstructions">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -690,13 +523,7 @@
     <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/struct.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/zaddress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/zaddress.js" />
     <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/authentication.js" />
     <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/settings.js" />
     <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" />
@@ -789,9 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,6 +631,40 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="274" selection-start-line="274" selection-end-line="285" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet/NodeWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -831,37 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="274" selection-start-line="274" selection-end-line="285" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/NodeWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
