@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="faefc1c9-8195-4dc3-a293-2162b7cb6de6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bs58check/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bs58check/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/zencashjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wallet/testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/testing.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +28,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="64" />
-          <entry key="js" value="6978" />
+          <entry key="js" value="6991" />
           <entry key="json" value="1" />
           <entry key="py" value="467" />
         </counts>
@@ -39,7 +36,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="6978" />
+          <entry key="JavaScript" value="6991" />
           <entry key="Python" value="531" />
         </counts>
       </usages-collector>
@@ -69,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            <state relative-caret-position="78">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
@@ -406,7 +403,7 @@
       <workItem from="1568669697157" duration="7184000" />
       <workItem from="1568737880640" duration="2257000" />
       <workItem from="1568750659332" duration="2608000" />
-      <workItem from="1568823537159" duration="3193000" />
+      <workItem from="1568823537159" duration="7246000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up dir">
       <created>1529018103621</created>
@@ -427,7 +424,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102903000" />
+    <option name="totallyTimeSpent" value="106956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,20 +439,20 @@
     <frame x="2227" y="1026" width="3773" height="1575" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4924812" visible="true" weight="0.1176" />
-      <window_info id="Structure" order="1" sideWeight="0.50751877" side_tool="true" visible="true" weight="0.1176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49308756" visible="true" weight="0.1176" />
+      <window_info id="Structure" order="1" sideWeight="0.50691247" side_tool="true" visible="true" weight="0.1176" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973333" weight="0.32967582" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48506665" visible="true" weight="0.44775087" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48986667" weight="0.39930797" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48426667" weight="0.44775087" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4888" visible="true" weight="0.39930797" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4936" weight="0.22076124" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51493335" side_tool="true" visible="true" weight="0.44775087" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49333334" weight="0.22076124" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5112" side_tool="true" visible="true" weight="0.39930797" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.15634365" />
       <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.812718" visible="true" weight="0.40997505" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -495,9 +492,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/wallet/testing.js</url>
-          <line>80</line>
+          <line>89</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -643,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        <state relative-caret-position="78">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>

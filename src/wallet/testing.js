@@ -12,7 +12,7 @@ const private_address2 = "L4hinTKPS4NmNmSHuZuC53c9aARAxriMzPM4VqyfjamZQofZZdvN";
 const private_address3 = "Kyn6MJfvRBbFAwADKuLEixg72Rt3jwqU7c8Bf87Nw3jpiGeWKZwK";
 
 
-const amount = 1.5;
+const amount = 2.0;
 
 const SCALE = 100000000;
 
@@ -42,14 +42,9 @@ function convertWIFToPrivKey(privKeyWIF) {
 run();
 async function run() {
 
-    let privKeysWIF = ['KxCJVLt58qeHbQC9Rvi7NwMB1opuQSa6jRp8NH2wTaBeGphtCpAc', 'L4hinTKPS4NmNmSHuZuC53c9aARAxriMzPM4VqyfjamZQofZZdvN',
-        'Kyn6MJfvRBbFAwADKuLEixg72Rt3jwqU7c8Bf87Nw3jpiGeWKZwK']
 
-    let privKeys = [convertWIFToPrivKey(private_address1),convertWIFToPrivKey(private_address2),convertWIFToPrivKey(private_address3)];
 
-    var redeemScript = zenjs.address.mkMultiSigRedeemScript([public_address1,public_address2,public_address3], 2, 3);
 
-    var multiSigAddress = zenjs.address.multiSigRSToAddress(redeemScript);
 
 
     let address_data = await node.async_post("listunspent",[0, 10000000,[public_address2]]);
@@ -69,7 +64,7 @@ async function run() {
     console.log("block data: "+(block_hash));
 
 
-    let temptotal = (past_tx_data.total-(SCALE * amount));
+    let temptotal = (past_tx_data.total-(SCALE * amount)-10000);
 
     let tx_out_list = [];
 
@@ -88,13 +83,10 @@ async function run() {
     );
 
 
-    var sig1 = zenjs.transaction.multiSign(new_tx, 0, privKeys[0], redeemScript);
-    var sig2 = zenjs.transaction.multiSign(new_tx, 0, privKeys[1], redeemScript);
 
 
-    var tx0 = zenjs.transaction.applyMultiSignatures(new_tx, 0, [sig1, sig2], redeemScript);
 
-    //let tx0 = zenjs.transaction.signTx(new_tx, 0, convertWIFToPrivKey(private_address2), true)
+    let tx0 = zenjs.transaction.signTx(new_tx, 0, convertWIFToPrivKey(private_address2), true)
     let raw_tx = zenjs.transaction.serializeTx(tx0);
 
     console.log("raw tx: "+raw_tx);
@@ -113,7 +105,7 @@ function build_past_TX_data_(data) {
                 //total:data[i].amount * SCALE,
                 txid: data[i].txid,
                 vout: data[i].vout,
-                scriptPubKey: ''//data[i].scriptPubKey
+                scriptPubKey: data[i].scriptPubKey
             });
         }
     }
