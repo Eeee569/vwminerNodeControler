@@ -3,136 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="faefc1c9-8195-4dc3-a293-2162b7cb6de6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet/testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/testing.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1809153564">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="11" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="26" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="64" />
-          <entry key="js" value="6991" />
-          <entry key="json" value="1" />
-          <entry key="py" value="467" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="6991" />
-          <entry key="Python" value="531" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="44" />
-          <entry key="json" value="3" />
-          <entry key="md" value="1" />
-          <entry key="nodeSetupInstructions" value="1" />
-          <entry key="sh" value="1" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="44" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wallet/NodeWrapper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxiTesting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vmStructure.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/hostControl/HostTesting.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,93 +26,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/testreadfromfile.txt" />
-        <option value="$PROJECT_DIR$/src/wallet/wallet.py" />
-        <option value="$PROJECT_DIR$/src/wallet/Wallet.py" />
-        <option value="$PROJECT_DIR$/src/wallet/wallet.js" />
-        <option value="$PROJECT_DIR$/src/nodeControl/ControlMain.js" />
-        <option value="$PROJECT_DIR$/src/nodeControl/Node.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/settings.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/vms.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/vm/power/vm_power_off.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/resources/authentication.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/resources/vms.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/resources/networks.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/common/settings.js" />
-        <option value="$PROJECT_DIR$/src/vshphereWrapper/package.json" />
-        <option value="$PROJECT_DIR$/src/esxiWrapper/Host.js" />
-        <option value="$PROJECT_DIR$/src/esxiWrapper/esxi.js" />
-        <option value="$PROJECT_DIR$/src/vmwareWrapper.js" />
-        <option value="$PROJECT_DIR$/src/vmwarewrapper/vmStructure.js" />
-        <option value="$PROJECT_DIR$/src/vmwarewrapper/hostControl/HostTesting.js" />
-        <option value="$PROJECT_DIR$/src/vmwarewrapper/hostControl/Host.js" />
-        <option value="$PROJECT_DIR$/src/vmwarewrapper/nodeControl/Node.js" />
-        <option value="$PROJECT_DIR$/settings.js" />
-        <option value="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxiTesting.js" />
-        <option value="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/src/wallet/NodeWrapper.js" />
-        <option value="$PROJECT_DIR$/src/wallet/testing.js" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-      <path value="$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2160" />
     <option name="y" value="938" />
     <option name="width" value="3840" />
     <option name="height" value="1602" />
   </component>
+  <component name="ProjectId" id="1R9bnLpgTL4sC1Kxtqxj4KlGq5H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <showMembers ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vwminerNodeControler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vwminerNodeControler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wallet" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/will/Documents/vwminer/node/vwminerNodeControler/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -293,13 +90,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="esxiTesting" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="esxiTesting.js" working-dir="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper">
+    <configuration name="esxiTesting" type="NodeJSConfigurationType" temporary="true" path-to-js-file="esxiTesting.js" working-dir="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper">
       <method v="2" />
     </configuration>
-    <configuration name="testing.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="testing.js" working-dir="$PROJECT_DIR$/src/wallet">
+    <configuration name="testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="testing.js" working-dir="$PROJECT_DIR$/src/wallet">
       <method v="2" />
     </configuration>
-    <configuration name="vwminer" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="node" working-dir="$PROJECT_DIR$">
+    <configuration name="vwminer" type="NodeJSConfigurationType" path-to-node="node" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="Wallet" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -346,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="src/lib/zencashjs/test/address.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="src/lib/zencashjs/test/address.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -358,8 +155,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.vwminer" />
       <item itemvalue="Mocha.src/lib/zencashjs/test/address.js" />
+      <item itemvalue="Node.js.vwminer" />
       <item itemvalue="Node.js.esxiTesting" />
       <item itemvalue="Node.js.testing.js" />
     </list>
@@ -404,6 +201,7 @@
       <workItem from="1568737880640" duration="2257000" />
       <workItem from="1568750659332" duration="2608000" />
       <workItem from="1568823537159" duration="7246000" />
+      <workItem from="1570037914890" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up dir">
       <created>1529018103621</created>
@@ -423,9 +221,6 @@
       <configuration name="src/lib/zencashjs/test/address.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106956000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -435,38 +230,19 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="2227" y="1026" width="3773" height="1575" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49308756" visible="true" weight="0.1176" />
-      <window_info id="Structure" order="1" sideWeight="0.50691247" side_tool="true" visible="true" weight="0.1176" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973333" weight="0.32967582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48426667" weight="0.44775087" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4888" visible="true" weight="0.39930797" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49333334" weight="0.22076124" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5112" side_tool="true" visible="true" weight="0.39930797" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.15634365" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.812718" visible="true" weight="0.40997505" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cleaned up dir" />
@@ -493,202 +269,10 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/wallet/testing.js</url>
           <line>89</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/scripts/renewcert.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testC.c" />
-    <entry file="file://$PROJECT_DIR$/OldInternalKeys" />
-    <entry file="file://$PROJECT_DIR$/manager.c" />
-    <entry file="file://$PROJECT_DIR$/testssh.py" />
-    <entry file="file://$PROJECT_DIR$/src/wallet/Wallet.py" />
-    <entry file="file://$PROJECT_DIR$/spawnNode.sh" />
-    <entry file="file://$PROJECT_DIR$/testreadfromfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/address.js" />
-    <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/nodeSetupInstructions">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/SetupPart2.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/NodeSetup/struct.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/zencashjs/test/zaddress.js" />
-    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/authentication.js" />
-    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/settings.js" />
-    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/NodeManagement.js" />
-    <entry file="file://$PROJECT_DIR$/src/vshphereWrapper/vms.js" />
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/common/utility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/networks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_off.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/resource_pools.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/datacenters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/resources/vms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/details/vm_details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/vm/power/vm_power_on.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwareWrapper.js" />
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/nodeControl/NodeTesting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/hostControl/Host.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vshphereWrapper/common/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/nodeControl/Node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="274" selection-start-line="274" selection-end-line="285" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/testing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/NodeWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wallet/wallet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxiTesting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/vmStructure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vmwarewrapper/hostControl/HostTesting.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
