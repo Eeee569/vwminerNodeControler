@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faefc1c9-8195-4dc3-a293-2162b7cb6de6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kvm/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/BigInstall.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/SmallInstall.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet/testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/testing.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -26,18 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2160" />
-    <option name="y" value="938" />
-    <option name="width" value="3840" />
-    <option name="height" value="1602" />
-  </component>
   <component name="ProjectId" id="1R9bnLpgTL4sC1Kxtqxj4KlGq5H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/will/Documents/vwminer/node/vwminerNodeControler/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper/esxiTesting.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/src/lib/zencashjs/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="$USER_HOME$/.npm" />
@@ -55,41 +62,7 @@
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Node.js.testing.js">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="vwminerNodeControler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testssh.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.vwminerNoteRun">
     <configuration name="esxiTesting" type="NodeJSConfigurationType" temporary="true" path-to-js-file="esxiTesting.js" working-dir="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper">
       <method v="2" />
     </configuration>
@@ -113,6 +86,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/wallet/Wallet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="vwminerNodeControler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testssh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,6 +141,7 @@
     <configuration name="src/lib/zencashjs/test/address.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
+      <mocha-package>$PROJECT_DIR$/src/lib/zencashjs/node_modules/mocha</mocha-package>
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
@@ -155,18 +151,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Mocha.src/lib/zencashjs/test/address.js" />
-      <item itemvalue="Node.js.vwminer" />
-      <item itemvalue="Node.js.esxiTesting" />
-      <item itemvalue="Node.js.testing.js" />
+      <item itemvalue="Python.vwminerNoteRun" />
+      <item itemvalue="Python.Wallet" />
     </list>
-    <recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <item itemvalue="Node.js.testing.js" />
-        <item itemvalue="Node.js.esxiTesting" />
-        <item itemvalue="Mocha.src/lib/zencashjs/test/address.js" />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
-    </recent_temporary>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -202,6 +201,9 @@
       <workItem from="1568750659332" duration="2608000" />
       <workItem from="1568823537159" duration="7246000" />
       <workItem from="1570037914890" duration="1032000" />
+      <workItem from="1575665397439" duration="3168000" />
+      <workItem from="1579820029522" duration="327000" />
+      <workItem from="1579820417561" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up dir">
       <created>1529018103621</created>
@@ -238,7 +240,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -247,6 +251,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cleaned up dir" />
     <option name="LAST_COMMIT_MESSAGE" value="cleaned up dir" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2879" y="1555" width="573" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579821132832">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state x="2879" y="1555" width="573" height="390" key="#com.intellij.fileTypes.FileTypeChooser/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1579821132832" />
+    <state width="1816" height="621" key="GridCell.Tab.0.bottom" timestamp="1575672973568">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state width="1816" height="621" key="GridCell.Tab.0.bottom/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1575672973568" />
+    <state width="1816" height="621" key="GridCell.Tab.0.center" timestamp="1575672973568">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state width="1816" height="621" key="GridCell.Tab.0.center/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1575672973568" />
+    <state width="1816" height="621" key="GridCell.Tab.0.left" timestamp="1575672973567">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state width="1816" height="621" key="GridCell.Tab.0.left/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1575672973567" />
+    <state width="1816" height="621" key="GridCell.Tab.0.right" timestamp="1575672973568">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state width="1816" height="621" key="GridCell.Tab.0.right/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1575672973568" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

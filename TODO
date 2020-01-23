@@ -1,0 +1,33 @@
+-wallet
+    -turn the testing into a function api for sending and reciving
+
+-kvm
+    -create the api
+        -start a small node
+            -clone from base image
+            -run startup scripts
+            -get new info and store in DB
+        -status checker
+            -makes sure the db is up to date with the vms and that the vms are functional
+
+        -delete
+            -delete a vm from one of the clusters
+        -cluster control
+            -vm routing
+                -given specs of a vm return an avalible server to install on
+                -query servers for specs
+
+
+-DB
+    -a wraper for the db that returns the info as python objects or takes python objects for the DB
+
+
+
+
+-error checking
+
+
+-main
+    -move any extra funds over a threashold in the wallet to the base address
+    -when the base address is full spin up a new vm
+    -run status checker every now and then

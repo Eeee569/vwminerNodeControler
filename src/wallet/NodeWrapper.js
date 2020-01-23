@@ -6,15 +6,17 @@ let axiosApi;
 
 NODE_URL = "http://127.0.0.1";
 NODE_PORT = "18231";
-AUTHORIZATION = "aWY3N0lqTTAyaXJIOUkxTDpNa0VZaTJqM0hPSDQzZ2hZTkZwMnN4MGg1ejRCckY1MUZXVVgxN1JlTnhNVUVUdHVJYUlaRWl1Yk94UE8xWUN2";
+AUTHORIZATION = "YzY1NEJ0eWdydUUwVUkzN3ZxRDR6MVhGdEFGVVdOZDA6WVpUSHk3VjIwRk8xaHhMRWgzb0NzelRjSjZnQ1FFcThYMWMzU3V2TzVua0VMZEs2SmtaRWttZ3ZUUE9TbVVtRg==";
+USERNAME = "c654BtygruE0UI37vqD4z1XFtAFUWNd0";
+PASSWORD = "YZTHy7V20FO1hxLEh3oCszTcJ6gCQEq8X1c3SuvO5nkELdK6JkZEkmgvTPOSmUmF";
 
 
 
 
 axiosApi = axios.create({
     baseURL: NODE_URL+":"+NODE_PORT,
-    timeout: 30000,
-    headers: {'Authorization': 'Basic '+AUTHORIZATION}
+    timeout: 30000//,
+   // headers: {'Authorization': 'Basic '+AUTHORIZATION}
 
 });
 
@@ -44,7 +46,12 @@ axiosApi = axios.create({
     
     
     return new Promise(function(resolve, reject) {
-        axiosApi.post('',built_msg)
+        axiosApi.post('',built_msg, {
+            auth: {
+                username: USERNAME,
+                password: PASSWORD
+            }
+        })
             .then(function (response){
 
                 if(response.data.hasOwnProperty('error')){

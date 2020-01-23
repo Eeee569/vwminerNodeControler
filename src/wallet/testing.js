@@ -4,11 +4,11 @@ const node = require("./NodeWrapper");
 const zenjs = require("zencashjs");
 
 
-const public_address1 = "znWYLEcs6qgP8bp7C1UpowZS12ZECDUsT5p";
-const public_address2 = "znZC3i6Ha7HXfcuoW7umuu2SGqrP7Rzp6QL";
+const public_address1 = "znWgjKK2NVAmwLCR6r6r7FEtSkbYnWYgtTJ";
+const public_address2 = "znoZyy7RB35y5RqSQEoJmumB9f2S4p8pqfP";
 const public_address3 = "znVaG4jdnYffXgG1iay7fRj45FC4vGiSidF";
-const private_address1 = "KxCJVLt58qeHbQC9Rvi7NwMB1opuQSa6jRp8NH2wTaBeGphtCpAc";
-const private_address2 = "L4hinTKPS4NmNmSHuZuC53c9aARAxriMzPM4VqyfjamZQofZZdvN";
+const private_address1 = "KwH7TfnPSQ8Puqs1EwtWyNJrqu9rZxte21CqPG1L3Xs8dYSxBnKN";
+const private_address2 = "L4zXW2eiCX3gPEe5gGM3HTCa4gTTAThMww3aAX2GrVjAwtzcqp91";
 const private_address3 = "Kyn6MJfvRBbFAwADKuLEixg72Rt3jwqU7c8Bf87Nw3jpiGeWKZwK";
 
 
