@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "dbServer": "192.168.142.2",
+    "hosts": [
+      "192.168.1.58",
+      "localhost"
+    ],
+    "hostusername": [
+      "master",
+      "will"
+    ],
+    "hostpassword": [
+      "wolfe1234",
+      "wolfe1234"
+    ],
+    "database": [
+      "VWminer"
+    ]
+  }
+}

@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faefc1c9-8195-4dc3-a293-2162b7cb6de6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kvm/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/BigInstall.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/SmallInstall.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DB/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DB/create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DB/wraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kvm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vwminerNodeControler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vwminerNodeControler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/NodeWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet/testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/testing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +46,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/will/Documents/vwminer/node/vwminerNodeControler/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/kvm" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/src/lib/zencashjs/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="$USER_HOME$/.npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper" />
-      <recent name="$PROJECT_DIR$/src/vshphereWrapper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/vmwarewrapper" />
       <recent name="$PROJECT_DIR$/src/hostControl" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/kvm" />
+      <recent name="$PROJECT_DIR$/src/DB" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/vmwarewrapper/esxiWrapper" />
+      <recent name="$PROJECT_DIR$/src/vshphereWrapper" />
     </key>
   </component>
   <component name="RunManager" selected="Python.vwminerNoteRun">
@@ -123,13 +128,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/DB" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testssh.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/DB/create.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,6 +209,7 @@
       <workItem from="1575665397439" duration="3168000" />
       <workItem from="1579820029522" duration="327000" />
       <workItem from="1579820417561" duration="513000" />
+      <workItem from="1579825098117" duration="795000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up dir">
       <created>1529018103621</created>
@@ -253,10 +259,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="cleaned up dir" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="4514" y="1408" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579822882599">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state x="4514" y="1408" key="#com.intellij.execution.impl.EditConfigurationsDialog/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1579822882599" />
     <state x="2879" y="1555" width="573" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579821132832">
       <screen x="2160" y="938" width="3840" height="1600" />
     </state>
     <state x="2879" y="1555" width="573" height="390" key="#com.intellij.fileTypes.FileTypeChooser/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1579821132832" />
+    <state x="2903" y="1499" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579825289161">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state x="2903" y="1499" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1579825289161" />
+    <state x="4839" y="1508" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579822879815">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state x="4839" y="1508" width="424" height="484" key="FileChooserDialogImpl/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1579822879815" />
     <state width="1816" height="621" key="GridCell.Tab.0.bottom" timestamp="1575672973568">
       <screen x="2160" y="938" width="3840" height="1600" />
     </state>
@@ -273,6 +291,10 @@
       <screen x="2160" y="938" width="3840" height="1600" />
     </state>
     <state width="1816" height="621" key="GridCell.Tab.0.right/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1575672973568" />
+    <state x="4545" y="1385" key="SettingsEditor" timestamp="1579822178869">
+      <screen x="2160" y="938" width="3840" height="1600" />
+    </state>
+    <state x="4545" y="1385" key="SettingsEditor/2160.938.3840.1600/6000.938.2560.1600/0.965.2160.2875@2160.938.3840.1600" timestamp="1579822178869" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
